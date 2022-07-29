@@ -1,0 +1,235 @@
+
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+main {
+  flex: 1 1 auto;
+  border: 1px solid black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+footer {
+  height: 8rem;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #444;
+}
+
+header {
+  height: 4rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 4rem;
+}
+
+nav ul {
+  display: flex;
+  text-decoration: none;
+}
+
+li {
+  list-style:none;
+  margin-right: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: auto;
+  color: #264653;
+}
+li a {
+  color: black;
+}
+li a:hover {
+
+  color: #2a9d8f;
+}
+
+
+.pagina-activado {
+  /*color: brown;*/
+  color: #2a9d8f;
+  text-decoration: none;
+}
+.pagina-desactivado {
+  text-decoration: none;
+}
+.inicio {
+  margin: auto 1rem;
+}
+
+.inicio h1 {
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: start;
+  margin-bottom: 0px;
+}
+
+.inicio strong {
+  color: #2a9d8f;
+}
+.inicio h2 {
+  color: rgb(98, 97, 97);
+  font-weight: lighter;
+}
+
+.inicio a {
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #2a9d8f;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in;
+  font-size: 1.2rem;
+}
+.inicio a:hover {
+  background-color: #264653;
+}
+
+.inicio section .heading {
+  font-size: 40px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.inicio p {
+  color: rgb(98, 97, 97);
+}
+.page {
+  margin: auto 5rem;
+}
+.page .heading {
+  font-size: 55px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input[type="text"], textarea {
+  display: block;
+  padding: 15px;
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  background-color: #2a9d8f;
+  margin-bottom: 2rem;
+  transition: background-color 0.2s ease-in;
+}
+
+input[type="submit"]:hover {
+  background-color: #264653;
+}
+
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.works .works-item {
+  width: 20%;
+  flex-basis: 25%;
+  margin: 20px;
+  flex-grow: 1;
+}
+.works-item .mask {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 1px solid #eee;
+  box-shadow: 0px 5px 5px gray;
+  
+}
+.works-item img {
+  width: 150%;
+  margin-left: -20%;
+  transition: all 0.2s ease-in;
+}
+.works-item img:hover {
+  width: 170%;
+}
+
+.works-item h2 {
+  display: block;
+  color: black;
+  margin-top: 5px;
+  font-size: 2rem;
+  margin-bottom: 2px;
+}
+.works-item a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+.works-item a:hover {
+  color: #2a9d8f;
+}
+
+.works-item h3 {
+  color: black;
+  margin-top: 0px;
+  color: gray;
+  border-top: 1px solid #ddd;
+  padding: 11px;
+}
+
+.page .mask {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem
+}
+.page .mask  img{
+  width: 50%;
+  aspect-ratio: 16 / 9;
+}
+.page h1{
+  margin-bottom: 0rem;
+}
+.page .paragraph {
+  font-size: 1.5rem;
+}
+.page .paragraph:last-child {
+  font-size: 1rem;
+}
+
+
+#tituloEspecial a{
+  background-color: white;
+  font-weight: bold;
+}
